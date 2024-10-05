@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: #c80a48;
+    --secordary-color: #0c0c0c;
+    --third-color: #ffffff;
+    --fouth-color: #171717;
+    --primary-font: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+
+/* designing of background image */
+header {
+    background-image: url(img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg);
+    background-size: max(1350px, 100vw);
+    background-color: black;
+    width: 100%;
+    height: 765px;
+    position: relative;
+}
+
+/* the above part of navbar */
+.pre-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 700px;
+    opacity: 0.82;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+}
+
+.ftd-1 {
+    font-size: 4.2rem;
+    font-weight: 600;
+}
+
+.ftd-2 {
+    font-size: 3rem;
+}
+
+.ftd-3 {
+    font-size: 1.15rem;
+}
+
+
+/* common btn design */
+.btn {
+    background-color: var(--primary-color);
+    padding: 17px 32px;
+    margin-top: 30px;
+    border-radius: 6px;
+    opacity: none;
+    cursor: pointer;
+}
+
+.btn-kmb {
+    font-size: 0.8rem;
+    color: white;
+    letter-spacing: 6px;
+}
+
+/* the actual navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--fouth-color);
+    height: 65px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 55px;
+}
+
+.nav-bar {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.pr-box {
+    height: 900px;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.pr-box-1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 25px;
+}
+
+.main-ftd-1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.main-ftd-2 {
+    font-size: 1rem;
+}
+
+.ftd-grey {
+    color: #a1a1a1;
+}
+
+
+.pr-box-2 img {
+    width: 58.5%;
+    background-color: rgb(37, 205, 77);
+}
+
+/* the pink color rectgular separator between text  */
+.sep-pink {
+    background-color: var(--primary-color);
+    height: 5px;
+    width: 100px;
+}
+
+/* design of portfolio part of home page */
+.pt-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    background-color: var(--fouth-color);
+    padding-top: 90px;
+}
+
+.pt-box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 22px;
+}
+
+.grey-para{
+    font-style: italic;
+    color: #a1a1a1;
+}
+
+.pt-box-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.pt-box-2 div {
+    background-color: black;
+    width: 100%;
+}
+
+.gal-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* design of service part of website */
+.sr-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 900px;
+    background-color: var(--secordary-color);
+    gap: 100px;
+}
+
+.sr-box-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 20px;
+}
+
+.sr-box-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.sr-box-2 div{
+    height: 250px;
+    width: 350px;
+    background-color: black;
+    border: 1px white;
+    border-style: dashed;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sr-ftd-1{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.sr-ftd-2{
+    font-size: 0.85rem;
+    color: #a1a1a1;
+}
+
+.sr-pink-sep{
+    height: 5px;
+    width: 50px;
+    background-color: var(--primary-color);
+}
+
+
+footer{
+    height: 50px;
+    color: white;
+    background-color: var(--fouth-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
